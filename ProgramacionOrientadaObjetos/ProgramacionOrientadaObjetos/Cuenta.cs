@@ -11,23 +11,19 @@ namespace ejecicio101
         public string titular;
         public double cantidad;
 
-        public void Inicializar()
+        //constructor con parametros
+        public Cuenta(string titular, double cantidad) 
         {
-            //inicializo con valores por defecto
-            this.titular = string.Empty;
-            this.cantidad = 0;
+            this.titular = titular; 
+            this.cantidad = cantidad;
         }
 
         public string GetTitular()
         {
-            string titular;
-            titular = this.titular;
             return titular;
         }
         public double GetCantidad()
         {
-            double cantidad;
-            cantidad = this.cantidad;
             return cantidad;
         }
 
@@ -35,8 +31,8 @@ namespace ejecicio101
         {
             StringBuilder stringCuenta = new StringBuilder();
             stringCuenta.Append("titular: ");
-            stringCuenta.Append(this.titular);
-            stringCuenta.Append(" \n cantidad: ");
+            stringCuenta.AppendLine(this.titular);
+            stringCuenta.Append("cantidad: ");
             stringCuenta.Append(this.cantidad.ToString());
             return stringCuenta.ToString();
         }

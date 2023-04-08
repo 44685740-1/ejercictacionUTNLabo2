@@ -11,7 +11,7 @@ namespace ejercicio101
             string retornoGetTitular;
             string muestraAtributosDeCuenta;
             //instancio la clase cuenta
-            Cuenta cuentaUno= new Cuenta();
+            Cuenta cuentaUno= new Cuenta("mcdonalds", 3000);
             Console.WriteLine("ingrese la opcion que desea");
             if (int.TryParse(Console.ReadLine(), out int opcion)) 
             {
@@ -19,9 +19,6 @@ namespace ejercicio101
                 //{
                     switch (opcion)
                     {
-                        case 1:
-                            cuentaUno.Inicializar();
-                            break;
                         case 2:
                             retornoGetTitular = cuentaUno.GetTitular();
                             break;

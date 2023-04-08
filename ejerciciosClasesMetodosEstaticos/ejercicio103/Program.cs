@@ -1,4 +1,6 @@
 ﻿using ejercicio103Coversores;
+using System.Text;
+
 namespace ejercicio103
  
 {
@@ -6,34 +8,27 @@ namespace ejercicio103
     {
         static void Main(string[] args)
         {
-            
-
-            if (InputDatos.PedirUnNuemeroEntero(out int numeroEntero)) 
+            /*
+             *  DECIMAL A BINARIO
+            string binario;
+            Console.WriteLine("ingrese un nuemro entero");
+            if (int.TryParse(Console.ReadLine(), out int numeroEntero)) 
             {
-                Console.WriteLine(numeroEntero);
+                binario = Conversor.ConvertirDecimalABinario(numeroEntero);
+                char[] binarioReverse = binario.ToCharArray();
+                Array.Reverse(binarioReverse);
+                Console.WriteLine(binarioReverse);
             }
-            else
-            {
-                Console.WriteLine("mal ingresado");
-            }
+            */
 
-        }
-
-        public class InputDatos 
-        {
-            public static bool PedirUnNuemeroEntero(out int  numero) 
-            {
-                bool retornoNumeroEntero;
-                Console.WriteLine("ingrese un numero entero");
-                retornoNumeroEntero = int.TryParse(Console.ReadLine(), out numero);
-                if (retornoNumeroEntero)
-                {
-                    return true;
-                } else 
-                {
-                    return false; 
-                }
-            }
+            //BINARIO A DECIMAL
+            int retorno;
+            Console.WriteLine("ingrese un numero binario");
+            if (int.TryParse(Console.ReadLine(), out int numeroBinario)) 
+            { 
+                retorno = Conversor.ConvertirBinarioADecimal(numeroBinario);
+                Console.WriteLine(retorno);
+            } 
         }
     }
 }
