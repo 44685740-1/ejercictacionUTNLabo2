@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Geometria\Geometria.csproj" />
+    <ProjectReference Include="..\Veterinaria\Veterinaria.csproj" />
   </ItemGroup>
 
 </Project>
