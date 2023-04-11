@@ -32,6 +32,8 @@ namespace Veterinaria
         public string MostrarMascota() 
         {
             StringBuilder mascotaSB = new StringBuilder();
+            mascotaSB.AppendLine();
+            mascotaSB.AppendLine();
             mascotaSB.AppendLine($"nombre mascota {this.NombreMascota}");
             mascotaSB.AppendLine($"especie mascota {this.Especie}");
             mascotaSB.AppendLine($"fecha nacimeinto mascota {this._fechaNacimientoMascota}");

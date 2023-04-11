@@ -25,7 +25,7 @@ namespace Veterinaria
         public string Apellido { get { return _apellido; } }
         public string telefono { get { return _telefono; } }
 
-        public Mascota Mascota { get { return _mascota;} set { value = _mascota;} }
+        public Mascota Mascota { get { return _mascota;} set { _mascota = value;} }
         
         public string MostrarCliente() 
         {
