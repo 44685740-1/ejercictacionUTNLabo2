@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ejercicio101", "ejercicio10
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Suma", "Suma\Suma.csproj", "{6E703784-9848-4A1E-B28C-B1239C971DB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicioA01", "ejercicioA01\ejercicioA01.csproj", "{8A431366-A6A3-4D54-9B4E-1775343BCBD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ejercicioA01", "ejercicioA01\ejercicioA01.csproj", "{8A431366-A6A3-4D54-9B4E-1775343BCBD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatura", "Temperatura\Temperatura.csproj", "{43E32BB0-A8D4-4C51-8F4C-F8E69869AB20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temperatura", "Temperatura\Temperatura.csproj", "{43E32BB0-A8D4-4C51-8F4C-F8E69869AB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejemploSobrecarga", "ejemploSobrecarga\ejemploSobrecarga.csproj", "{E37F96EA-1286-411A-97DB-12A390B663FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{43E32BB0-A8D4-4C51-8F4C-F8E69869AB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E32BB0-A8D4-4C51-8F4C-F8E69869AB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E32BB0-A8D4-4C51-8F4C-F8E69869AB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37F96EA-1286-411A-97DB-12A390B663FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37F96EA-1286-411A-97DB-12A390B663FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37F96EA-1286-411A-97DB-12A390B663FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37F96EA-1286-411A-97DB-12A390B663FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
