@@ -73,6 +73,7 @@
             btnSaludar.TabIndex = 3;
             btnSaludar.Text = "Saludar";
             btnSaludar.UseVisualStyleBackColor = true;
+            btnSaludar.Click += btnSaludar_Click;
             // 
             // cmbMateria
             // 
