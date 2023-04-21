@@ -42,11 +42,6 @@ namespace ejercicioC01
                 //supera a 2 que es la catidad de jugadores del equipo que hardcodeamos
                 Console.WriteLine($"no se agrego \n{jugadorCuatro.MostarDatos()}");
             }
-
-
-
-
-
         }
     }
 }
