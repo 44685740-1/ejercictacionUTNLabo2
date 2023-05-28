@@ -21,7 +21,8 @@ namespace ejemploMDI
         {
             List<Productos> lista = new List<Productos>();
             frmLsitados frmlistadoHijo = new frmLsitados();
-            frmlistadoHijo.MdiParent = this;
+            frmContenedor frmContenedor = new frmContenedor();  
+            frmlistadoHijo.MdiParent = frmContenedor;
             frmlistadoHijo.Show();
         }
 
