@@ -1,4 +1,4 @@
-namespace logsAbrirCerrasFrm
+namespace LogsNombreUsuario
 {
     internal static class Program
     {

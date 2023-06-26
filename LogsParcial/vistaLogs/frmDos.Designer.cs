@@ -1,4 +1,4 @@
-﻿namespace logsAbrirCerrasFrm
+﻿namespace vistaLogs
 {
     partial class frmDos
     {
@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SuspendLayout();
-            // 
-            // frmDos
-            // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Name = "frmDos";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "frmDos";
-            Load += frmDos_Load;
-            ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "frmDos";
         }
 
         #endregion

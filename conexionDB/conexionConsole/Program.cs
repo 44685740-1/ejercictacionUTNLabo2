@@ -27,13 +27,14 @@
             }
             */
 
-            /*
-             * CONJUNTO QUE DEBERIA ESTAR EN EL CONTROLLER
+            
+             /* CONJUNTO QUE DEBERIA ESTAR EN EL CONTROLLER
             List<usuario> listaUsuarios = new List<usuario>();
             ConexionSQL conexionSQL = new ConexionSQL();
             conexionSQL.Abrir();
             UsuariosHandler usuariosHandler = new UsuariosHandler();
             listaUsuarios = usuariosHandler.Leer();
+           
 
             foreach (usuario item in listaUsuarios)
             {

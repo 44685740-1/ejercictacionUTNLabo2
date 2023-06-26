@@ -1,4 +1,4 @@
-﻿namespace logsAbrirCerrasFrm
+﻿namespace LogsNombreUsuario
 {
     partial class frmPrincipal
     {
@@ -29,57 +29,44 @@
         private void InitializeComponent()
         {
             btnFrmUno = new Button();
-            btnFrmDos = new Button();
-            lbformulario = new Label();
+            btnfrmDos = new Button();
             SuspendLayout();
             // 
             // btnFrmUno
             // 
-            btnFrmUno.Location = new Point(246, 210);
+            btnFrmUno.Location = new Point(217, 178);
             btnFrmUno.Name = "btnFrmUno";
-            btnFrmUno.Size = new Size(106, 83);
+            btnFrmUno.Size = new Size(119, 90);
             btnFrmUno.TabIndex = 0;
             btnFrmUno.Text = "frm Uno";
             btnFrmUno.UseVisualStyleBackColor = true;
             btnFrmUno.Click += btnFrmUno_Click;
             // 
-            // btnFrmDos
+            // btnfrmDos
             // 
-            btnFrmDos.Location = new Point(456, 206);
-            btnFrmDos.Name = "btnFrmDos";
-            btnFrmDos.Size = new Size(103, 91);
-            btnFrmDos.TabIndex = 1;
-            btnFrmDos.Text = "frm dos";
-            btnFrmDos.UseVisualStyleBackColor = true;
-            btnFrmDos.Click += btnFrmDos_Click;
-            // 
-            // lbformulario
-            // 
-            lbformulario.AutoSize = true;
-            lbformulario.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lbformulario.Location = new Point(374, 100);
-            lbformulario.Name = "lbformulario";
-            lbformulario.Size = new Size(0, 30);
-            lbformulario.TabIndex = 2;
+            btnfrmDos.Location = new Point(428, 178);
+            btnfrmDos.Name = "btnfrmDos";
+            btnfrmDos.Size = new Size(126, 90);
+            btnfrmDos.TabIndex = 1;
+            btnfrmDos.Text = "frm Dos";
+            btnfrmDos.UseVisualStyleBackColor = true;
+            btnfrmDos.Click += btnfrmDos_Click;
             // 
             // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(lbformulario);
-            Controls.Add(btnFrmDos);
+            Controls.Add(btnfrmDos);
             Controls.Add(btnFrmUno);
             Name = "frmPrincipal";
             Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Button btnFrmUno;
-        private Button btnFrmDos;
-        private Label lbformulario;
+        private Button btnfrmDos;
     }
 }
